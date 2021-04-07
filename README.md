@@ -1,57 +1,57 @@
-# Weather-SwiftUI
+# iOS-OpenWeather
 
 <div style="width: 1000px; height 600px;"><img src="screenshot1.png" width="30%" height="30%" align="right"></div>
 
+## Introduction
+The purpose of this project was to introduce myself to Swift and SwiftUI. This was my first ever project in iOS development. Many ideas and concepts were derived from tutorials listed under the acknowledgements section below. 
 
 ## Overview
 
-Weather-SwiftUI is a weather app that uses the Dark Sky API built using SwiftUI! Get the current weather for a particular location and check out the 5-day forecast! The app incorporates:
+iOS-OpenWeather is a weather app that uses the OpenWeatherMap API data using SwiftUI and Swift! 
+Get weather information through a daily hourly format, or a 5-day forecast! iOS-OpenWeather incorporates:
 
 - SwiftUI
-- Stacks
-- Images and Text
-- Gradients
-- Parsing JSON using Codable
-- Error Handling
-- MVVM
+- API implementation
+- JSON parsing using Decodable
+- Model View ViewModel (MVVM)
+- NavigationView + NavigationLink transitions
+
 
 ## Custom Features
 
 Additional features were added to the original functionality of the app, including:
 
-- Custom, dynamic UI using SwiftUI
-- Expanded CurrentWeather model including apparent temperature and wind speed
-- Included 5-day forecast
+- Custom UI design
+- 5-day forecast with additional details
+- Hourly forecast
 
 ## Getting Started
 
-> This app is not available on the App Store.
+> This app is not currently available on the App Store, but may be in the near future.
 
 ### Prerequisites
 
-- A valid API key from Dark Sky
 - A Mac running macOS Catalina (beta)
-- Xcode 11 (beta)
+- Xcode 11 (beta) or newer
+- A valid API key from Open Weather Map
 
 ### Installation
 
 1. Clone or download the project to your local machine
-2. Open the project in Xcode
-3. Replace `YOURAPIKEY` with your valid Dark Sky API key in `DarkSkyAPIClient.swift`
+2. Double click `Weather.xcodeproj` in project root, or open the project's root in Xcode by pressing CMND + O and selecting project's root folder. 
+3. Replace contents of string `API_KEY` with your valid Open Weather Map API key in `URLExtension.swift`. 
 
-```swift
-class DarkSkyAPIClient {
-    fileprivate let darkSkyApiKey = "YOURAPIKEY"
+```
+let API_KEY = "your_key_between_quotation_marks"
 ```
 
-4. Run the simulator
+4. Run the simulator with any selected iOS simulated device.
+5. If you wish to run the application on your personal device, please reference 
 
 ## Acknowledgements
 
-The following resources were used in the development of this project. All custom code is my own.
+Throughout the development of the project, the following were used for reference:
 
-- [Build a Weather App](https://teamtreehouse.com/library/build-a-weather-app-5)
-- [SwiftUI Fetching JSON and Image Data with BindableObject](https://www.youtube.com/watch?v=xT4wGOc2jd4)
-- Graphics: [Meteocons](https://www.iconfinder.com/iconsets/meteocons) by [Alessio Atzeni](https://www.iconfinder.com/Bluxart)
-
-Interested in learning more about iOS Development? [Sign up today](http://referrals.trhou.se/bobbyconti1)!
+- [What is JSON - JSON Parsing in Swift] -> https://www.youtube.com/watch?v=_TrPJQWD8qs
+- Icons [SF Symbols 2] -> https://developer.apple.com/sf-symbols/
+- [Build Weather App in Swift and Xcode 12] -> https://www.youtube.com/watch?v=Xc6q_JltHSI
