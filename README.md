@@ -1,6 +1,13 @@
 # iOS-OpenWeather
 
-<div style="width: 1000px; height 600px;"><img src="screenshot1.png" width="30%" height="30%" align="right"></div>
+<div style="width: 1000px; height 600px;"><img src="ScreenShotDay1.png" width="30%" height="30%" align="right"></div>
+
+<div style="width: 1000px; height 600px;"><img src="ScreenShotDay2.png" width="30%" height="30%" align="right"></div>
+
+<div style="width: 1000px; height 600px;"><img src="ScreenShotNight1.png" width="30%" height="30%" align="right"></div>
+
+<div style="width: 1000px; height 600px;"><img src="ScreenShotNight2.png" width="30%" height="30%" align="right"></div>
+
 
 ## Introduction
 The purpose of this project was to introduce myself to Swift and SwiftUI. This was my first ever project in iOS development. Many ideas and concepts were derived from tutorials listed under the acknowledgements section below. 
