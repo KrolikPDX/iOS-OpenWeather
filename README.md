@@ -2,13 +2,6 @@
 
 <div style="width: 1000px; height 600px;"><img src="ScreenShotDay1.png" width="30%" height="30%" align="right"></div>
 
-<div style="width: 1000px; height 600px;"><img src="ScreenShotDay2.png" width="30%" height="30%" align="right"></div>
-
-<div style="width: 1000px; height 600px;"><img src="ScreenShotNight1.png" width="30%" height="30%" align="right"></div>
-
-<div style="width: 1000px; height 600px;"><img src="ScreenShotNight2.png" width="30%" height="30%" align="right"></div>
-
-
 ## Introduction
 The purpose of this project was to introduce myself to Swift and SwiftUI. This was my first ever project in iOS development. Many ideas and concepts were derived from tutorials listed under the acknowledgements section below. 
 
@@ -31,6 +24,8 @@ Additional features were added to the original functionality of the app, includi
 - Custom UI design
 - 5-day forecast with additional details
 - Hourly forecast
+- 
+<div style="width: 1000px; height 600px;"><img src="ScreenShotDay2.png" width="30%" height="30%" align="right"></div>
 
 ## Getting Started
 
@@ -41,6 +36,9 @@ Additional features were added to the original functionality of the app, includi
 - A Mac running macOS Catalina (beta)
 - Xcode 11 (beta) or newer
 - A valid API key from Open Weather Map
+
+
+<div style="width: 1000px; height 600px;"><img src="ScreenShotNight1.png" width="30%" height="30%" align="right"></div>
 
 ### Installation
 
@@ -54,6 +52,9 @@ let API_KEY = "your_key_between_quotation_marks"
 
 4. Run the simulator with any selected iOS simulated device.
 5. If you wish to run the application on your personal device, please reference 
+6. 
+<div style="width: 1000px; height 600px;"><img src="ScreenShotNight2.png" width="30%" height="30%" align="right"></div>
+
 
 ## Acknowledgements
 
