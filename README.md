@@ -53,7 +53,7 @@ let API_KEY = "your_key_between_quotation_marks"
 5. If you wish to run the application on your personal device, please reference 
 
 
-
+<div style="width: 1000px; height 600px;"><img src="ScreenShotNight1.png" width="30%" height="30%" align="right"></div>
 
 ## Acknowledgements
 
@@ -62,9 +62,4 @@ Throughout the development of the project, the following were used for reference
 - [What is JSON - JSON Parsing in Swift] -> https://www.youtube.com/watch?v=_TrPJQWD8qs
 - Icons [SF Symbols 2] -> https://developer.apple.com/sf-symbols/
 - [Build Weather App in Swift and Xcode 12] -> https://www.youtube.com/watch?v=Xc6q_JltHSI
-
-
-<div style="width: 1000px; height 600px;"><img src="ScreenShotNight1.png" width="30%" height="30%" align="right"></div>
-
-<div style="width: 1000px; height 600px;"><img src="ScreenShotNight2.png" width="30%" height="30%" align="right"></div>
 
