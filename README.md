@@ -22,10 +22,11 @@ Get weather information through a daily hourly format, or a 5-day forecast! iOS-
 Additional features were added to the original functionality of the app, including:
 
 - Custom UI design
+- Theme change based on time
 - 5-day forecast with additional details
 - Hourly forecast
-- 
-<div style="width: 1000px; height 600px;"><img src="ScreenShotDay2.png" width="30%" height="30%" align="right"></div>
+
+<div style="width: 1000px; height 600px;"><img src="ScreenShotNight2.png" width="30%" height="30%" align="right"></div>
 
 ## Getting Started
 
@@ -44,16 +45,11 @@ Additional features were added to the original functionality of the app, includi
 1. Clone or download the project to your local machine
 2. Double click `Weather.xcodeproj` in project root, or open the project's root in Xcode by pressing CMND + O and selecting project's root folder. 
 3. Replace contents of string `API_KEY` with your valid Open Weather Map API key in `URLExtension.swift`. 
-
 ```
 let API_KEY = "your_key_between_quotation_marks"
 ```
-
 4. Run the simulator with any selected iOS simulated device.
 5. If you wish to run the application on your personal device, please reference 
-
-
-<div style="width: 1000px; height 600px;"><img src="ScreenShotNight1.png" width="30%" height="30%" align="right"></div>
 
 ## Acknowledgements
 
