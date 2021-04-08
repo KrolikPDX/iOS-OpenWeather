@@ -7,8 +7,9 @@ The purpose of this project was to introduce myself to Swift and SwiftUI. This w
 
 ## Overview
 
-iOS-OpenWeather is a weather app that uses the OpenWeatherMap API data using SwiftUI and Swift! 
-Get weather information through a daily hourly format, or a 5-day forecast! iOS-OpenWeather incorporates:
+iOS-OpenWeather is a weather app that uses data pulled from OpenWeatherMap One Call API! (https://openweathermap.org/api/one-call-api) 
+
+Get weather information through an hourly, daily, and forecast format. iOS-OpenWeather incorporates:
 
 - SwiftUI
 - API implementation
@@ -38,8 +39,6 @@ Additional features were added to the original functionality of the app, includi
 - Xcode 11 (beta) or newer
 - A valid API key from Open Weather Map
 
-
-
 ### Installation
 
 1. Clone or download the project to your local machine
@@ -48,8 +47,7 @@ Additional features were added to the original functionality of the app, includi
 ```
 let API_KEY = "your_key_between_quotation_marks"
 ```
-4. Run the simulator with any selected iOS simulated device.
-5. If you wish to run the application on your personal device, please reference 
+4. Run the simulator with any selected iOS simulatable device.
 
 ## Acknowledgements
 
